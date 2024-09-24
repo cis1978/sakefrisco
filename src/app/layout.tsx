@@ -25,11 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <header>sakefrisco.com
+    <img src="/E9D20A5F-91EF-4D82-AEF2-ADC49A52EEF2_1_201_a.jpeg" alt="Sakefrisco Logo" style={{ width: '65px', height: '65px',padding:'10px', }} />
+    </header>
+    
         {children}
-      </body>
+    </body>
     </html>
   );
 }
